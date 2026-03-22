@@ -1441,12 +1441,6 @@ export default function App() {
             </div>
           </div>
         </div>
-        <img 
-          src="https://i.imgur.com/euamyFt.jpeg" 
-          alt="報名資訊補充" 
-          referrerPolicy="no-referrer"
-          className="hidden md:block w-full h-auto"
-        />
       </section>
 
       {/* Video Section */}
