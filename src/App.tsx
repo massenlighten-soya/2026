@@ -376,7 +376,7 @@ const Courses = () => {
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="w-full py-3 bg-gold-600 hover:bg-gold-700 text-white rounded-3xl font-black text-[18px] md:text-2xl transition-all shadow-xl shadow-gold-600/20 flex items-center justify-center gap-3"
+                className="w-full py-3 bg-[#dd7659] hover:bg-[#dd7659] text-white rounded-3xl font-black text-[18px] md:text-2xl transition-all shadow-xl shadow-gold-600/20 flex items-center justify-center gap-3"
               >
                 立即加Line報名
                 <ArrowRight size={24} />
@@ -1299,7 +1299,7 @@ export default function App() {
               href="https://line.me/R/ti/p/@soya666" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-gold-600 hover:bg-gold-700 text-white font-black py-1.5 px-5 md:py-3 md:px-8 rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-3 group whitespace-nowrap"
+              className="bg-[#dd7659] hover:bg-[#dd7659] text-white font-black py-1.5 px-5 md:py-3 md:px-8 rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-3 group whitespace-nowrap"
             >
               <span className="text-[15px] md:text-[28px] text-center">加入官方Line報名，解鎖完整內容</span>
               <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform duration-300 hidden md:block" />
@@ -1401,7 +1401,7 @@ export default function App() {
             href="https://line.me/R/ti/p/@soya666" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="bg-gold-600 hover:bg-gold-700 text-white font-black py-1.5 px-5 rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-3 group whitespace-nowrap"
+            className="bg-[#dd7659] hover:bg-[#dd7659] text-white font-black py-1.5 px-5 rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-3 group whitespace-nowrap"
           >
             <span className="text-[15px] text-center">加入官方Line報名，觀看每日分析佈局</span>
           </motion.a>
@@ -1433,7 +1433,7 @@ export default function App() {
                 href="https://line.me/R/ti/p/@soya666" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-gold-600 hover:bg-gold-700 text-white font-black py-1.5 px-5 md:py-3 md:px-8 rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-3 group whitespace-nowrap"
+                className="bg-[#dd7659] hover:bg-[#dd7659] text-white font-black py-1.5 px-5 md:py-3 md:px-8 rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-3 group whitespace-nowrap"
               >
                 <span className="text-[15px] md:text-[28px] text-center">加入官方Line報名，觀看每日分析佈局</span>
                 <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform duration-300 hidden md:block" />
@@ -1518,7 +1518,7 @@ export default function App() {
                   href="https://line.me/R/ti/p/@soya666" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="bg-gold-600 hover:bg-gold-700 text-white font-black py-1.5 px-5 md:py-3 md:px-8 rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-3 group whitespace-nowrap"
+                  className="bg-[#dd7659] hover:bg-[#dd7659] text-white font-black py-1.5 px-5 md:py-3 md:px-8 rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-3 group whitespace-nowrap"
                 >
                   <span className="text-[15px] md:text-[28px] text-center">加入官方Line報名</span>
                   <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform duration-300 hidden md:block" />
