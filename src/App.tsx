@@ -28,11 +28,19 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 50);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+useEffect(() => {
+  // 1. 發送 Meta Pixel 頁面瀏覽事件
+  if (typeof window.fbq !== 'undefined') {
+    fbq('track', 'ViewContent');
+  }
+
+  // 2. 原有的滾動監聽邏輯
+  const handleScroll = () => setIsScrolled(window.scrollY > 50);
+  window.addEventListener('scroll', handleScroll);
+
+  // 清除函式 (Cleanup)
+  return () => window.removeEventListener('scroll', handleScroll);
+}, []); // 保持空陣列，確保只在頁面載入時執行一次
 
   const navLinks = [
     { name: '教學特色', href: '#features' },
@@ -1407,6 +1415,13 @@ export default function App() {
             href="https://line.me/R/ti/p/@soya666" 
             target="_blank" 
             rel="noopener noreferrer"
+            
+onClick={() => {
+    if (typeof window.fbq !== 'undefined') {
+      fbq('track', 'Contact');
+    }
+  }}
+            
             className="bg-[#dd7659] hover:bg-[#dd7659] text-white font-black py-1.5 px-5 rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-3 group whitespace-nowrap"
           >
             <span className="text-[15px] text-center">加入官方Line報名，觀看每日分析佈局</span>
